@@ -1,7 +1,7 @@
 #include <tokenizer.h>
 #include <cstdio>
 #include <cctype>
-#include "error.h"
+#include "../error.h"
 
 Tokenizer::Tokenizer(std::istream *in) {
     s_ = in;
